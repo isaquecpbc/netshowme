@@ -1,0 +1,591 @@
+.bar{
+  border-bottom: solid 6px #f9b500;
+  vertical-align: top;
+  background-color: white;
+}.bar-container{
+  vertical-align: top;
+  width: 1230px;
+  height: 100px;
+  margin: 0 auto;
+}
+.bar p.text-bar {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 35px 0 0 50px;
+}
+.bar p.text-code {
+  font-size: 12px;
+  padding: 5px;
+}
+.bar .CTAButton {
+  margin-top: 0;
+  margin: 0 0 0 15px;
+  width: 225px;
+  height: 55px;
+  vertical-align: top;
+}
+.bar .MenuCTAButtonText {
+  font-size: 17px;
+}
+.bar .CTAcode {
+  margin-top: 0;
+  width: 225px;
+  vertical-align: top;
+  background-position: 90% center;
+}
+.bar .text-cta {
+  font-size: 18px;
+  width: 130px;
+}
+.bar .Click-to-copy-code {
+  font-size: 11px;
+  margin-left: 75px;
+}
+.bkg-banner {
+  width: 1440px;
+  height: 400px;
+  margin: 0;
+  padding: 0 155px 1px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.bkg-banner .col-md-6 {
+  margin-top: 45px;
+}
+.guy {
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 15% center;
+  margin-top: 0!important;
+  padding-top: 45px;
+}
+.BetRiver-logo {
+  width: auto;
+  height: 80px;
+  margin: 5px 414px 24px 0;
+  object-fit: contain;
+}
+.HeadlineText {
+  width: 553px;
+  height: 134px;
+  /*margin: 24px 0 0;*/
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.HeadlineText-sub {
+  width: 553px;
+  height: 46px;
+  /*margin: 158px 0 0;*/
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Rectangle {
+  width: 361px;
+  height: 335px;
+  margin: 0 0 19px 216px;
+  padding: 42px 30px 30px;
+  object-fit: contain;
+  border-radius: 40px;
+  border: solid 6px #f9b500;
+  background-color: #f7fafd;
+}
+.Rectangle .USE-AFFILIATE-CODE {
+  width: 300px;
+  height: 35px;
+  margin: 20px 1px 0 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1c4f;
+  text-transform: uppercase;
+}
+.CTAcode {
+  width: 300px;
+  padding: 0 18px 0 42px;
+  object-fit: contain;
+  border-radius: 30px;
+  border: solid 3px #f9b500;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 95% center;
+  cursor: pointer;
+}
+.text-cta{
+  width: 216px;
+  margin: 13px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1c4f;
+}
+.CTAButton {
+  width: 300px;
+  height: 60px;
+  margin: 9px 1px 0 0;
+  object-fit: contain;
+  background-color: #f9b500;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+.MenuCTAButtonText {
+  text-shadow: 0 10px 40px rgba(255, 181, 0, 0.2);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: auto;
+  padding: 20px;
+}
+.Click-to-copy-code {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #6d7278;
+  margin-left: 145px;
+  position: relative;
+  top: -7.5px;
+}.arrow {
+  width: 20px;
+  height: 30px;
+  /*margin: 0 0 5px 115px;*/
+  object-fit: contain;
+  transform: rotate(-4deg);
+  position: relative;
+  top: -17.5px;
+  /*border: solid 1px #f9b500;*/
+}
+.Rectangle .Get-100-Match-Depos {
+  width: 301px;
+  height: 60px;
+  margin: 0 0 20px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f1c4f;
+}
+
+.Step-1-Click-on-re {
+  width: 588px;
+  height: 120px;
+  margin: 16px 15px 48px 1px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+  font-weight: 600;
+  text-align: left;
+}
+.Step-link{
+  color: #f9b500;
+}
+
+.Deposit-Methods {
+  width: 168px;
+  height: 22px;
+  margin: 48px 409px 0 1px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.bkg-Rectangle {
+  width: 1440px;
+  height: 455px;
+  /*margin: 400px 0 60px;*/
+  padding: 49px 155px 60px 154px;
+  background-color: #f7fafd;
+}
+.HeadlineText-Copy {
+  width: 554px;
+  height: 84px;
+  margin: 0 24px 0 0;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #11223f;
+}
+.vip {
+  width: 72px;
+  height: 25px;
+  margin: 30px 24px 29px 0;
+  object-fit: contain;
+}.PAYPAL {
+  width: 70px;
+  height: 20px;
+  margin: 32px 0 32px 0;
+  object-fit: contain;
+}.VISA {
+  width: 49px;
+  height: 15px;
+  margin: 35px 10px 19px 10px;
+  object-fit: contain;
+}.PLAY {
+  width: 40px;
+  height: 20px;
+  margin: 32px 10px 17px 10px;
+  object-fit: contain;
+}.PAYNEARME {
+  width: 84px;
+  height: 24px;
+  margin: 19px 0 1px 0;
+  object-fit: contain;
+}
+.MASTERCARD {
+  width: 36px;
+  height: 28px;
+  margin: 23px 10px 9px 10px;
+  object-fit: contain;
+}.DISVOVER {
+  width: 49px;
+  height: 40px;
+  margin: 17px 10px 3px 10px;
+  object-fit: contain;
+}
+.PRT_MS_261-SMS-USA-Banner-Request {
+  width: 970px;
+  height: auto;
+  margin: 60px 235px;
+  object-fit: contain;
+  border: solid 1px #979797;
+}
+
+footer{
+  width: 1440px;
+  height: 80px;
+  margin: 60px 0 0;
+  padding: 0 156px 0 155px;
+  background-color: #f7fafd;
+}
+.Sportsbook-Marketing-Copy {
+  width: 318px;
+  vertical-align: middle;
+  /*margin: 16px 504px 16px 19px;*/
+  margin: auto;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #1f1c4f;
+}.Dave_icon {
+  width: 72px;
+  height: 80px;
+  margin: 0 0 0 504px;
+  object-fit: contain;
+  background-blend-mode: color;
+  /*background-image: linear-gradient(to bottom, #d8d8d8, #d8d8d8);*/
+}
+.Deposit-Match-U {
+  width: 527px;
+  height: 150px;
+  margin: 11px 0 16px 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  font-weight: 600;
+}
+.Deposit-Match-U p { 
+    vertical-align: top;
+    padding: 0 0 0 25px;
+    font-weight: 400;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left 3px;
+}
+
+.Retangle-devices {
+  width: 1440px;
+  /*height: 577px;*/
+  /*margin: 453px 0 0;*/
+  /*padding: 40px 252px 40px 0;*/
+  background-color: #ffffff;
+}
+
+.device_1 {
+  background-repeat: no-repeat;
+  background-size: 624px;
+  background-position: 16% center;
+  height: 577px;
+}
+.devices {
+  width: 624px;
+  height: 497px;
+  margin: 0 107px 0 0;
+  object-fit: contain;
+}
+.lines {
+  width: 570px;
+  height: 172px;
+  margin: 253px 143px 110px 210px;
+  object-fit: contain;
+  position: absolute;
+}.HeadlineText_devices {
+  width: 361px;
+  height: 49px;
+  margin: 258px 96px 40px 0;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #11223f;
+}.HeadlineText_2_devices {
+  width: 265px;
+  height: 95px;
+  margin: 0 0 95px 0;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #1f1c4f;
+  vertical-align: top;
+}.Rectangle_bnt_devices {
+  width: 166px;
+  height: 40px;
+  margin: 23px 23px 124px 7px;
+  padding: 0 18px 0 19px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: solid 4px #ffcc2e;
+  background-color: #ffffff;
+  vertical-align: top;
+}.HeadlineText_bnt_devices {
+  width: 129px;
+  padding: 3px;
+  margin: 0;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1c4f;
+}
+
+.device_2 {
+  width: 708px;
+  height: 497px;
+  margin: 0 0 0 0;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: 624px;
+  background-position: 85% center;
+}.lines_2 {
+  width: 489px;
+  height: 68px;
+  margin: 315px 0 119px -65px;
+  object-fit: contain;
+}.HeadlineText_devices_2 {
+  width: 361px;
+  height: 89px;
+  margin: 195px 0px 0 347.5px;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: right;
+  color: #11223f;
+}.HeadlineText_2_devices_2 {
+  width: 265px;
+  height: 68px;
+  margin: 28px 0 0 250px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1f1c4f;
+}.Rectangle_bnt_devices_2 {
+  width: 166px;
+  height: 40px;
+  margin: 40px 26px;
+  padding: 0 18px 0 19px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: solid 4px #ffcc2e;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 10;
+}.HeadlineText_bnt_devices_2 {
+  width: 129px;
+  padding: 3px 0;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1c4f;
+}
+
+.bkg-orange {
+  width: 1130px;
+  height: 281px;
+  margin: 60px 155px;
+  padding: 68px 84px 51px 96px;
+  object-fit: contain;
+  border-radius: 60px;
+  background-color: #f9b500;
+}
+.bkg-orange .Get-100-Match-Depos {
+  width: 950px;
+  height: 40px;
+  margin: 0 0 9px;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: left;
+}.USE-AFFILIATE-CODE {
+  width: 254px;
+  height: 30px;
+  margin: 9px 34px 2px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: left;
+  text-transform: uppercase;
+}
+.bkg-orange .CTAButton{
+  margin: 2px 0 21px 24px;
+  border-radius: 30px;
+  vertical-align: top;
+  background-color: #fcca46;
+}
+
+.bkg-blue {
+  width: 1440px;
+  height: 208px;
+  margin: 0;
+  padding: 53px 155px 52px 154px;
+  background-color: #11223f;
+}.bkg-blue .HeadlineText-Copy {
+  width: 360px;
+  height: 46px;
+  /*margin: 0 218px 15px 0;*/
+  font-size: 31px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  color: #ffffff;
+}.icon_-21 {
+  width: 46px;
+  height: 42px;
+  margin: 15px 532px 0 0;
+  object-fit: contain;
+}.Must-be-21-Must-be {
+  width: 553px;
+  height: auto;
+  /*margin: 27px 0 28px 218px;*/
+  padding: 27px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.killMargin{
+    margin:0;
+}
+.inline-block{
+    display: inline-block!important;
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+}
+* { font-family: 'Poppins', sans-serif; }

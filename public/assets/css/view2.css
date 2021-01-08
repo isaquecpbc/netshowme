@@ -1,0 +1,217 @@
+.bkg {
+  width: 1440px;
+  height: 48px;
+  /*padding: 4px 1098px 7px 155px;*/
+  background-color: #f7fafd;
+}
+.logo_SMSUSA {
+  width: 187px;
+  height: auto;
+  object-fit: contain;
+}
+.bkg-banner {
+  width: 1440px;
+  height: 400px;
+  padding: 31px 493px 56px 502px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.logo_BetMGM {
+  width: auto;
+  height: 55px;
+  /*margin: 0 15px 6px 72px;*/
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: top;
+}
+.diveder {
+  width: 2px;
+  height: 56px;
+  margin: 1px 19px 4px 15px;
+  object-fit: contain;
+  background-color: #c4a968;
+  display: inline-block;
+  vertical-align: top;
+}
+.logo_SMS {
+  width: 71px;
+  height: 57px;
+  /*margin: 3px 63px 1px 19px;*/
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: top;
+}
+.copy {
+  width: 445px;
+  height: 208px;
+  /*margin: 1px 0 44px;*/
+  object-fit: contain;
+}
+.CTAButton {
+  width: 169px;
+  height: 50px;
+  /*margin: 60px 408px 109px 1px;*/
+  margin: 0 auto;
+  object-fit: contain;
+  background-color: #c4a968!important;
+  border-radius: 2.5px;
+}
+.MenuCTAButtonText {
+  background-color: #c4a968!important;
+  width: 169px;
+  height: 50px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 2.5px;
+  /*margin: 203px 126px 0 150px;*/
+  text-shadow: 0 10px 40px rgba(255, 181, 0, 0.2);
+  font-family: D-DIN;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+.Rectangle {
+  width: 1440px;
+  height: auto;
+  /*margin: 400px 0 60px;*/
+  padding: 49px 155px 51px 154px;
+  background-color: #f7fafd;
+}
+.HeadlineText-Copy {
+  width: 554px;
+  height: 84px;
+  margin: 0 24px 60px 0;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #11223f;
+}
+.vip {
+  width: 72px;
+  height: 25px;
+  margin: 30px 24px 14px 0;
+  object-fit: contain;
+}.PAYPAL {
+  width: 70px;
+  height: 20px;
+  margin: 32px 13px 17px 24px;
+  object-fit: contain;
+}.VISA {
+  width: 49px;
+  height: 15px;
+  margin: 35px 21px 19px 26px;
+  object-fit: contain;
+}.PLAY {
+  width: 40px;
+  height: 20px;
+  margin: 32px 22px 17px 21px;
+  object-fit: contain;
+}.PAYNEARME {
+  width: 84px;
+  height: 24px;
+  margin: 19px 0 1px 22px;
+  object-fit: contain;
+}
+.MASTERCARD {
+  width: 36px;
+  height: 28px;
+  margin: 23px 5px 9px 0;
+  object-fit: contain;
+}.AMEX {
+  width: 69px;
+  height: 46px;
+  margin: 14px 1px 0 5px;
+  object-fit: contain;
+}.DISVOVER {
+  width: 49px;
+  height: 40px;
+  margin: 17px 19px 3px 1px;
+  object-fit: contain;
+}.SKRILL {
+  width: 44px;
+  height: 44px;
+  margin: 15px 39px 1px 13px;
+  object-fit: contain;
+}
+.PRT_MS_261-SMS-USA-Banner-Request {
+  width: 970px;
+  height: auto;
+  margin: 60px 235px;
+  object-fit: contain;
+  border: solid 1px #979797;
+}
+footer{
+  width: 1440px;
+  height: 80px;
+  margin: 60px 0 0;
+  padding: 0 156px 0 155px;
+  background-color: #f7fafd;
+}
+.Sportsbook-Marketing-Copy {
+  width: 318px;
+  vertical-align: middle;
+  /*margin: 16px 504px 16px 19px;*/
+  margin: auto;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #1f1c4f;
+}.Dave_icon {
+  width: 72px;
+  height: 80px;
+  margin: 0 0 0 504px;
+  object-fit: contain;
+  background-blend-mode: color;
+  /*background-image: linear-gradient(to bottom, #d8d8d8, #d8d8d8);*/
+}
+.Deposit-Match-U {
+  width: 527px;
+  height: 225px;
+  margin: 11px 0 16px 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+  font-weight: 600;
+}
+.Deposit-Match-U p { 
+    vertical-align: top;
+    padding: 0 0 0 25px;
+    font-weight: 400;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left 3px;
+}
+.killMargin{
+    margin:0;
+}
+.inline-block{
+    display: inline-block!important;
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+}
+* { font-family: 'Poppins', sans-serif; }
