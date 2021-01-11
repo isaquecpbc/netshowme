@@ -28,7 +28,7 @@ class ContactsFormRequest extends FormRequest
             'email'        => 'required|min:3|max:100|email|unique:contacts',
             'phone'        => 'required|min:8|max:11|unique:contacts',
             'message'      => 'required|min:3|max:500',
-            'archive'      => 'file|size:500|mimes:pdf,doc,docx,odt,txt|nullable',
+            'archive'      => 'file|max:500|mimes:pdf,doc,docx,odt,txt|nullable',
         ];
 
     }

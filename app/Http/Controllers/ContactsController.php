@@ -58,7 +58,6 @@ class ContactsController extends Controller
 
         $dataForm['ip_address'] = \Request::ip();
 
-
         // Define o valor default para a variável que contém o nome da archivem 
         $nameFile = null;
      
@@ -75,7 +74,7 @@ class ContactsController extends Controller
             $nameFile = "{$name}.{$extension}";
 
             // Faz o upload:
-            $upload = $request->archive->storeAs('assets\archives\brand', $nameFile);
+            $upload = $request->archive->storeAs('archives\contacts', $nameFile);
 
             if ( !$upload ) {
                 return redirect()
@@ -148,7 +147,7 @@ class ContactsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(ContactsFormRequest $request, $id)
+    public function update(Request $request, $id)
     {
         $dataForm = $request->all();
 
@@ -172,7 +171,7 @@ class ContactsController extends Controller
             $nameFile = "{$name}.{$extension}";
 
             // Faz o upload:
-            $upload = $request->archive->storeAs('assets\archives\brand', $nameFile);
+            $upload = $request->archive->storeAs('archives\contacts', $nameFile);
 
             if ( !$upload ) {
                 return redirect()
@@ -184,7 +183,7 @@ class ContactsController extends Controller
             }
  
         } else {
-            $dataForm['archive'] = $brandUp->archive;
+            $dataForm['archive'] = $contactUp->archive;
         }
         
         $update = $contactUp->update($dataForm);

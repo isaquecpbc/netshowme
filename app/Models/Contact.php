@@ -8,6 +8,6 @@ class Contact extends Model
 {
     //
     protected $fillable = [
-        'name', 'email', 'phone', 'message', 'ip_address',
+        'name', 'email', 'phone', 'message', 'archive', 'ip_address',
     ];
 }
