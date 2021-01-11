@@ -1,8 +1,8 @@
 # teste Netshowme PHP em Laravel
 
 1. Depois do clone ou download, na pasta raiz, abrir o terminal e executar $ composer update para o composer fazer download dos arquivos.
+> $ composer update
 
-Para executar o app laravel em um apache:
 2. criar um banco de dados e o configurar no arquivo .env.example na raiz:
 
 DB_CONNECTION=mysql
