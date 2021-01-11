@@ -21,3 +21,10 @@ salve o arquivo sem o ".example", apenas como ".env"
 5. iniciar o laravel com $ php artisan serve
 
 O aplicativo executar em http://127.0.0.1:8000
+
+## Inicio do sistema
+
+1. A primeira página entra no fomrmulário de cadastro
+
+2. Para acessar os cadastros, alteralos e excluílos, basta escrever 
+> /contacts
