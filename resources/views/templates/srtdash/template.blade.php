@@ -21,20 +21,12 @@
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
-        @auth
-            @include('templates.srtdash.inc.sidebar')
-        @endauth
         <!-- main content area start -->
         <div class="main-content">
             <!-- header area -->
             @auth
                 @include('templates.srtdash.inc.headarea')
             @endauth
-            
-            <!-- page title area start -->
-            @isset($title)
-                @include('templates.srtdash.inc.pagearea')
-            @endisset
             
             <!-- page title area end -->
             <div class="main-content-inner">

@@ -25,8 +25,8 @@ class ContactsFormRequest extends FormRequest
     {
         return [
             'name'         => 'required|min:3|max:100|string',
-            'email'        => 'required|min:3|max:100|email|unique',
-            'phone'        => 'required|min:8|max:11|unique',
+            'email'        => 'required|min:3|max:100|email|unique:contacts',
+            'phone'        => 'required|min:8|max:11|unique:contacts',
             'message'      => 'required|min:3|max:500',
             'archive'      => 'file|size:500|mimes:pdf,doc,docx,odt,txt|nullable',
         ];

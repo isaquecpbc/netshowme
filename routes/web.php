@@ -23,4 +23,4 @@ Route::prefix('contacts')->group(function () {
 	Route::delete('/{id}/destroy', 'ContactsController@destroy')->name('contacts.destroy');
 });
 
-Route::get('/', 'ContactsController@index')->name('contacts.index');
+Route::get('/', 'ContactsController@create')->name('contacts.create');

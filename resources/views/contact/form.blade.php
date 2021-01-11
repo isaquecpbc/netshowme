@@ -16,9 +16,12 @@
         {!! Form::open(['route' => ['contacts.update', $contact->id], 'class' => 'form', 'files' => true, 'enctype' => 'multipart/form-data', 'method' => 'PUT']) !!}
     @else
         {!! Form::open(['route' => 'contacts.store', 'class' => 'form', 'files' => true, 'enctype' => 'multipart/form-data',]) !!}
+    	<div class="col-sm-12 py-5">
+            <h1>Cadastro de Contato</h1>   
+        </div>
     @endif
     <div class='row justify-content-center mt-3 form-row align-items-center'>
-    	<div class="col-sm-12 my-1"><div class="form-group">
+        <div class="col-sm-12 my-1"><div class="form-group">
             {!! Form::label('name', 'Nome', ['class' => 'custom-control']) !!}
             {!! Form::text('name', $contact->name ?? null, ['class' => 'form-control', 'placeholder' => 'Escreva seu nome...']) !!}</div></div>
         <div class="col-sm-6 my-1"><div class="form-group">

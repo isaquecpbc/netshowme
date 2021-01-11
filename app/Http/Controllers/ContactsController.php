@@ -94,7 +94,11 @@ class ContactsController extends Controller
         $insert = $this->contact->create($dataForm);
 
         if ($insert) {
-            return redirect()->route('contacts.show', $insert->id)->with(['status' => 'Sucesso ao criar tarefa']);
+            $title = 'Sucesso!';
+            $title_page = 'Sucesso!';
+            $status = 'Sucesso ao registrar contato de '.$insert->name;
+            return view('contact.response', compact('title', 'title_page', 'status'));
+            // return redirect()->route('contacts.show', $insert->id)->with(['status' => 'Sucesso ao criar contato']);
         } else {
             return redirect()->back()->withErrors(['errors' => 'Falha ao criar']);
         }
@@ -186,7 +190,7 @@ class ContactsController extends Controller
         $update = $contactUp->update($dataForm);
 
         if ($update) {
-            return redirect()->route('contacts.index')->with(['status' => 'Sucesso ao atualizar tarefa']);
+            return redirect()->route('contacts.index')->with(['status' => 'Sucesso ao atualizar contato']);
         } else {
             return redirect()->route('contacts.edit', $id)->withErrors(['errors' => 'Falha ao editar']);
         }
@@ -205,7 +209,7 @@ class ContactsController extends Controller
         $delete = $contactDel->delete();
 
         if ($delete) {
-            return redirect()->route('contacts.index')->with(['status' => 'Sucesso ao excluir contact']);
+            return redirect()->route('contacts.index')->with(['status' => 'Sucesso ao excluir contato']);
         } else {
             return redirect()->route('contacts.show', $id)->withErrors(['errors' => 'Falha ao deletar']);
         }
