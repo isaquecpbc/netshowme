@@ -27,7 +27,7 @@ class ContactsController extends Controller
         $contacts = $this->contact->all();
 
         //titulo na Aba da página
-        $title_page = 'Agendas - Listagem';
+        $title_page = 'Contatos - Listagem';
         
         return view('contact.index', compact('title', 'title_page', 'contacts'));
     }
@@ -40,7 +40,7 @@ class ContactsController extends Controller
     public function create()
     {
         //titulo na Aba da página
-        $title_page = 'Agendas - Cadastro';
+        $title_page = 'Contatos - Cadastro';
         
         return view('contact.form', compact('title', 'title_page'));
     }
@@ -93,9 +93,26 @@ class ContactsController extends Controller
         $insert = $this->contact->create($dataForm);
 
         if ($insert) {
+            
+            // send email
+
+            // $to      = 'nobody@example.com';
+            // $subject = 'Cadastro de contato';
+            // $message = '<h2>Cadastro de contato</h2>';
+            // $message .= '<br><p>'.$insert->name.'</p>';
+            // $message .= '<br><p>'.$insert->phone.'</p>';
+            // $message .= '<br><p>'.$insert->email.'</p>';
+            // $message .= '<br><p>'.$insert->message.'</p>';
+            // $message .= '<br><p>sitepublicadodeexemplo.com.br/'.$insert->archive.'</p>';
+            // $headers = 'From: naoresponda@netshowme.com.br' . "\r\n" .
+            //     'X-Mailer: PHP/' . phpversion();
+
+            // mail($to, $subject, $message, $headers);
+
             $title = 'Sucesso!';
             $title_page = 'Sucesso!';
             $status = 'Sucesso ao registrar contato de '.$insert->name;
+
             return view('contact.response', compact('title', 'title_page', 'status'));
             // return redirect()->route('contacts.show', $insert->id)->with(['status' => 'Sucesso ao criar contato']);
         } else {

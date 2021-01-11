@@ -22,9 +22,13 @@ salve o arquivo sem o ".example", apenas como ".env"
 
 O aplicativo executar em http://127.0.0.1:8000
 
-## Inicio do sistema
+## Instruções do sistema
 
 1. A primeira página entra no fomrmulário de cadastro
 
 2. Para acessar os cadastros, alteralos e excluílos, basta escrever 
 > /contacts
+
+3. Os arquivos enviados ficam em "public/archives/contacts"
+
+4. O email não pode enviar com apache localhost, para isso, o php precisa de um servidor, e no momento estou sem, mas se o projeto estivesse online, descomentariamos as linhas que enviam localizadas em "\app\Http\Controllers\ContactsController.php" linhas 99-110.
